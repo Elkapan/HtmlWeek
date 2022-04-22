@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    background: none;
+    border: none;
+    font-weight: 1000;
+}
+
+body{
+    opacity: 0.7;
+    background-image:url(mainbg.jpg);
+    background-repeat:repeat;
+    background-color: seagreen;
+    min-height: 100vh;
+}
+
+.pagetitle{
+    background-color:green;
+    padding-bottom: 0px;
+    font-size: 2em;
+    text-align: left;
+    color: seashell;
+    padding: 0.2em;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    opacity:0.8;
+  }
+
+.logo{
+    border-radius: 50%;
+    max-width: 2.5em;
+    max-height:2.5em;
+}
+
+.pagehead{
+    background-color:green;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0px;
+    color: seashell;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    opacity: 0.8;
+  }
+
+.navlinks{
+    background-color: teal;
+    font-size: 1em;
+    text-align:left;
+    padding-top:0px;
+    border-top: 1em;
+    padding-left:7em;
+    display:flex;
+    justify-content: space-around;
+}
+
+.main{
+    text-align:center;
+    margin-top: 40px;
+}
+
+.introtext{
+    font-weight: bolder;
+}
+
+.didyouknow{
+    background-color: seagreen;
+    border: 3px dashed black;
+    display:inline-block;
+    width: 30em;
+    display:flex;
+    margin-left:24em;
+    flex-direction:row;
+    align-content:center;
+    align-self: center;
+    text-align:left;
+    align-content:center;
+}
+
+.icon{
+    max-width: 2.5em;
+    max-height:2.5em;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.listtable{
+    color: rgba(94, 255, 0, 0.719);
+    background-image:url(background.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: 2px solid green;
+    border-radius: 12px;
+    width:26em;
+    display:flex;
+    justify-content: space-around;
+    justify-content:flex-start;
+    padding-bottom:8em;
+    margin-bottom:5em;
+    margin-left:1em;
+}
+
+.tabletitle{
+    text-indent: 9em; 
+}
+
+.imageleft{
+    border: 3px solid seagreen;
+    border-radius: 20px;
+    border-left-width:10em;
+    display:flex;      
+    justify-content: space-around;
+    border-left-width:5em;
+}
+
+.mainimageleft1,.mainimageleft2,.mainimageleft3,.mainimageleft4,.mainimageleft5{
+    max-width: 260px;
+    max-height: 260px;
+}
+
+#lefttext,#lefttext2,#lefttext3,#lefttext4,#lefttext5{
+    text-indent: 2em;
+    white-space: nowrap;
+}
+
+.maintext{
+    text-indent:2em;
+    display:flex;
+    justify-content:left;
+}
+
+h2{ 
+      text-align: center;
+}
+
+
